@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; /* Police Helvetica pour tout le texte */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Arrière-plan de base blanc */
+}
+
+header {
+    text-align: center;
+    background-color: transparent;
+    color: rgb(182, 8, 8);
+    padding: 20px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.box {
+    border: 3px solid #ccc; /* Bordure plus épaisse */
+    padding: 20px;
+    width: 300px;
+    margin: 0 10px;
+    position: relative; /* Ajout de position relative */
+    background-color: #948d8d; /* Arrière-plan gris pour les boxes */
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    position: absolute; /* Positionnement absolu */
+    top: 0; /* Collé en haut */
+    right: 0; /* Collé à droite */
+    border: 1px solid black; /* Ajout d'une bordure */
+    padding: 5px; /* Ajout de rembourrage */
+}
+
+/* Couleurs d'arrière-plan différentes pour chaque titre */
+.box:nth-child(1) h2 {
+    background-color: #FFB6C1; /* Rose */
+}
+
+.box:nth-child(2) h2 {
+    background-color: #b10c0c; /* Bleu ciel */
+}
+
+.box:nth-child(3) h2 {
+    background-color: #ddec0b; /* Vert clair */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
